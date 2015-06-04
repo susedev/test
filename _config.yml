@@ -1,0 +1,6 @@
+title: "Konferenz: KommunikationsFluten"
+base_url: /data # http://jekyllrb.com/docs/github-pages/#project-page-url-structure
+defaults:
+  - scope: {path: ""}
+    values:
+      layout: "page"
