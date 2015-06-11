@@ -19,7 +19,6 @@ title: Registration
             #container {width:300px; margin:0 left;}
  
             form input[type="text"],
-            form input[type="password"],
             form input[type="email"] {width:160px;}
  
             form .line {clear:both;}
@@ -27,21 +26,17 @@ title: Registration
 </style>
 <div id="container">
 <form>
-<h1>Create Logon</h1>
+<div class="line"><label for="first name">First Name *: </label><input id="first name" type="text" /></div>
 
-<div class="line"><label for="username">Username *: </label><input id="username" type="text" /></div>
+<div class="line"><label for="last name">Last Name *: </label><input id="last name" type="text" /></div>
 
-<div class="line"><label for="pwd">Password *: </label><input id="pwd" type="password" /></div>
-<!-- You may want to consider adding a "confirm" password box also -->
+<div class="line"><label for="email">Email *: </label><input id="email" type="email" /></div>
 
 <div class="line"><label for="surname">Surname *: </label><input id="surname" type="text" /></div>
 
 <div class="line"><label for="other_names">Other Names *: </label><input id="names" type="text" /></div>
 
 <div class="line"><label for="dob">Date of Birth *: </label><input id="dob" type="text" /></div>
-
-<div class="line"><label for="email">Email *: </label><input id="email" type="email" /></div>
-<!-- Valid input types: http://www.w3schools.com/html5/html5_form_input_types.asp -->
 
 <div class="line"><label for="tel">Telephone: </label><input id="tel" type="text" /></div>
 
