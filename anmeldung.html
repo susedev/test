@@ -12,5 +12,34 @@ title: Anmeldung
 <p><strong>Online-Anmeldung</strong></p>
 
 <p>Sie k&ouml;nnen sich &uuml;ber das unten stehende Formular f&uuml;r die Fachtagung anmelden. Bitte f&uuml;llen Sie s&auml;mtliche Felder aus. Nach der erfolgreichen Anmeldung erhalten Sie eine Anmeldungsbest&auml;tigung an die von Ihnen angegebene E-Mail-Adresse.</p>
+<style type="text/css">body {font-family:Arial, Sans-Serif;}
+ 
+            #container {width:300px; margin:0 left;}
+ form label {display:inline-block; width:140px;}
+            form input[type="text"],
+            form input[type="email"] {width:160px;}
+ 
+            form .line {clear:both;}
+            form .line.submit {text-align:right;}
+</style>
+<div id="container">
+<form>
+<div class="line"><label for="first_name">First Name *: </label><input id="first_name" type="text" /></div>
 
-<p>Anmeldungs-Formular</p>
+<div class="line"><label for="last_name">Last Name *: </label><input id="last_name" type="text" /></div>
+
+<div class="line"><label for="email">Email *: </label><input id="email" type="email" /></div>
+
+<div class="line"><label for="organization">Organization /Institution *: </label><input id="organization" type="text" /></div>
+
+<div class="line"><label for="add">Address *: </label><input id="add" type="text" /></div>
+
+<div class="line"><label for="ptc">Post Code *: </label><input id="ptc" type="text" /></div>
+
+<div class="line"><label for="city">City *: </label><input id="postcode" type="text" /></div>
+
+<div class="line submit"><input type="submit" value="Submit" /></div>
+
+<p>Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!.</p>
+</form>
+</div>
