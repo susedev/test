@@ -2,7 +2,11 @@
 layout: base
 ---
 
-{% include navbar.html %}
+{% if page.language == 'en' %}
+  {% include navbar-en.html %}
+{% else %}
+  {% include navbar.html %}
+{% endif %}
 
 <div class="container">
   <h1>{{ page.title }}</h1>
