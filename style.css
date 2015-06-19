@@ -1,9 +1,27 @@
 <style>
-      body { color: #333; }
-      h1 { color: #336699; font-size: 24px; }
-      h2 { color: #333; font-size: 14px; font-weight: bold}
-      h3 { color: #336699; font-size: 14px; font-weight: bold}
-      h5 { color: #336699; font-size 56px; font-weight: bold};
-      col { background-color: #FAFAFA; }
-      aside {background-color: #DBE9F7; }
+      #body {
+            color: #333; 
+      }
+      #h1 { 
+            color: #336699; 
+            font-size: 24px; 
+            
+      }
+      #h2 { 
+            color: #333; 
+            font-size: 14px; 
+            font-weight: bold}
+      #h3 { 
+            color: #336699; 
+            font-size: 14px; 
+            font-weight: bold}
+      #h5 { 
+            color: #336699; 
+            font-size 56px; 
+            font-weight: bold};
+      #aside {
+            width=50px; 
+            height=500px; 
+            background-color: #F8F8F8; 
+            border-color=#E7E7E7 }
     </style>
