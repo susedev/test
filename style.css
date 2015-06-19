@@ -4,6 +4,5 @@
       h2 { color: #333; font-size: 14px; font-weight: bold; }
       h3 { color: #337AB7; font-size: 18px; }
       h5 { color: #337AB7; font-size 56px; font-weight: bold;}
-      row { position:relative; }
-      col-md-2 { position:absolute; height:100%;}
+      col { position:absolute; height:100%;}
       </style>
