@@ -11,5 +11,5 @@
       space {width: 9%)
       space:before {width: 9%; content: ''; position: absolute; top: 0; bottom: 0; z-index: -1; left: 66%;}
       sidebar2 {width: 25%; float:left; margin-left: 15px; }
-      sidebar2:before { content: ''; position: absolute; top: 0; bottom: 0; z-index: -1; left: 75%; border:1px solid #FFF; border-left-color:#DDD;}
+      sidebar2:before { content: ''; position: absolute; top: 0; bottom: 0; z-index: -1; left: 75%; background-color: #333; border:1px solid #FFF; border-left-color:#DDD;}
     </style>
