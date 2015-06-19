@@ -4,12 +4,4 @@
       h2 { color: #333; font-size: 14px; font-weight: bold; }
       h3 { color: #337AB7; font-size: 18px; }
       h5 { color: #337AB7; font-size 56px; font-weight: bold;}
-      content {width:50%; float:left; padding: 20px 30px; }
-      content:before {content: ''; width: 50%; position: absolute; top: 0; bottom: 0; z-index: -1; left: 50%; }
-      sidebar {width: 16%; float:left; }
-      sidebar:before {content:  ''; width: 16%;  position: absolute; top: 0; bottom: 0; z-index: -1; left: 0%; }
-      space {width: 9%)
-      space:before {width: 9%; content: ''; position: absolute; top: 0; bottom: 0; z-index: -1; left: 66%;}
-      sidebar2 {width: 25%; float:left; margin-left: 15px; }
-      sidebar2:before { content: ''; position: absolute; top: 0; bottom: 0; z-index: -1; left: 75%; background-color: #333; border:1px solid #FFF; border-left-color:#DDD;}
-    </style>
+      </style>
