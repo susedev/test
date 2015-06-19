@@ -4,4 +4,8 @@
       h2 { color: #333; font-size: 14px; font-weight: bold; }
       h3 { color: #337AB7; font-size: 18px; }
       h5 { color: #337AB7; font-size 56px; font-weight: bold;}
+      content {width:50%; float:left; padding: 20px 30px; }
+      sidebar {width: 16%; float:left; }
+      space {width: 9%);
+      sidebar2 {width: 25%; float:left; }
     </style>
