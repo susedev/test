@@ -4,3 +4,5 @@ defaults:
   - scope: {path: ""}
     values:
       layout: "page"
+
+registration_php_url: "/register.php"
