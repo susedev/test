@@ -22,7 +22,7 @@ h3 { color: #337AB7; font-size: 18px; }
   /* fix overflow */
   table-layout: fixed;
 }
-.col-xs-height {
+.col-md-height {
   display: table-cell;
   float: none !important;
 }
