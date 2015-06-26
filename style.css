@@ -25,5 +25,4 @@ h3 { color: #337AB7; font-size: 18px; }
 .col-md-height {
   display: table-cell;
   float: none !important;
-  padding-bottom:9px;
 }
