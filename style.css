@@ -4,6 +4,7 @@ h2 { color: #777; font-size: 30px; font-weight: bold; text-align: right; }
 h3 { color: #337AB7; font-size: 18px; }
 
 .navbar-default  {
+  height: 30px;
   font-size: 24px;
 }
 
