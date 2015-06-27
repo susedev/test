@@ -3,11 +3,11 @@ h1 { color: #337AB7; font-size: 24px; }
 h2 { color: #777; font-size: 30px; font-weight: bold; text-align: right; }
 h3 { color: #337AB7; font-size: 18px; }
 
-.page-header {
+.header {
   background-color:#FAFAFA;
 }
 
-.navbar-default  {
+.nav  {
   height: 30px;
   font-size: 24px;
 }
