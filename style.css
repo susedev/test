@@ -3,7 +3,7 @@ h1 { color: #337AB7; font-size: 24px; }
 h2 { color: #777; font-size: 30px; font-weight: bold; text-align: right; }
 h3 { color: #337AB7; font-size: 18px; }
 
-.header {
+.background-image{
     background-image: url('http://www.eijc.eu/wp-content/uploads/2015/06/background-1920-1080.jpg');
     background-color: #808080;
     width: 100%;
