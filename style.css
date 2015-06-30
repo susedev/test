@@ -16,6 +16,11 @@ h3 { color: #337AB7; font-size: 18px; }
     overflow: hidden;
 }
 
+.box {
+    background-color: #337AB7; 
+    height:2px; 
+    margin-top:3px; 
+}
 
 .registration {
   border: 0;
