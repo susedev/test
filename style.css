@@ -5,6 +5,8 @@ h3 { color: #337AB7; font-size: 16px; }
 
 page-header {  border-bottom: 0px; }
 
+nav-pills { text-transform: uppercase; }
+
 background-image { 
     background-image: url('http://www.eijc.eu/wp-content/uploads/2015/06/background-1920-1080.jpg');
     width: 100%;
