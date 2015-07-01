@@ -1,7 +1,7 @@
 body {height: 100%; color: #333; background-color:red;}
-h1 { color: #337AB7; font-size: 24px; }
+h1 { color: #337AB7; font-size: 24px; text-transform: uppercase; }
 h2 { color: #777; font-size: 30px; font-weight: bold; text-align: right; }
-h3 { color: #337AB7; font-size: 16px; text-transform: uppercase; }
+h3 { color: #337AB7; font-size: 16px; }
 
 page-header {  border-bottom: 0px; }
 
