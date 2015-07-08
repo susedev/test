@@ -9,10 +9,9 @@ h3 { color: #337AB7; font-size: 18px; }
 navbar { text-transform: uppercase; }
 
 background-image { 
-    background-image: url('http://www.eijc.eu/wp-content/uploads/2015/06/background-1920-1080.jpg');
+    background-image: url('{{ site.base_url }}/media/background-1280x800.jpg');
     width: 100%;
     height:499px;
-    background-size: cover;
     overflow: hidden;
 }
 
