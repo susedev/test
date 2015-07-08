@@ -6,25 +6,14 @@ h3 { color: #337AB7; font-size: 18px; }
 
 .page-header {  border-bottom: 0px; }
 
-.navbar { 
-    text-transform: uppercase; 
-    font-weight: bold;
-    color: #FFFFF;
-    background-color: #337AB7;
-}
 
-background-image { 
+.background-image { 
     background-image: url('{{ site.base_url }}/media/background-1280x800.jpg');
     width: 100%;
     height:499px;
     overflow: hidden;
 }
 
-box {
-    background-color: #337AB7; 
-    height:2px; 
-    margin-top:3px; 
-}
 
 .registration {
   border: 0;
@@ -33,21 +22,3 @@ box {
 }
 
 
-.row-full-height {
-  height: 100%;
-}
-.col-full-height {
-  height: 100%;
-  vertical-align: top;
-}
-.row-same-height {
-  display: table;
-  width: 100%;
-  /* fix overflow */
-  table-layout: fixed;
-}
-.col-md-height {
-  display: table-cell;
-  float: none !important;
-  padding-bottom:15px;
-}
