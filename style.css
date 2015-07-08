@@ -21,6 +21,9 @@ h3 {
     
 }
 
+.navbar-default {
+    margin-left: -50px;
+}
 
 .page-header {  
     border-bottom: 0px; 
