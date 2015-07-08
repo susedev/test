@@ -22,7 +22,7 @@ if(isset($_GET['lang']) && $_GET['lang'] == 'en') {
     'early_bird_info' => 'Early-Bird-Tickets are available until 31.08.2015.',
     'success' => 'Thank you for your registration. You have been registered successfully as participant at the Conference "Communication Floods" at Mediacampus Villa Ida, Poetenweg 28, 04155 Leipzig on Friday, 6 November 2015.',
     'formtext' => 'You send us the following information:',
-    'invoice_soon' => 'You will recieve an invoice soon. Please transfer the fee [ticket] within 7 days to this account:',
+    'invoice_soon' => 'You will recieve an invoice soon. Please transfer the fee within 7 days to this account:',
     'form_footer' => 'Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!',
     'form_footer_2' => 'A registration confirmation/invoice will be sent by email after the Conference Stuff has received the fully completed registration form.',
   );
@@ -42,7 +42,7 @@ else {
     'early_bird_info' => 'Early-Bird-Tickets are available until 31.08.2015.',
     'success' => 'Thank you for your registration. You have been registered successfully as participant at the Conference "Communication Floods" at Mediacampus Villa Ida, Poetenweg 28, 04155 Leipzig on Friday, 6 November 2015.',
     'formtext' => 'You send us the following information:',
-    'invoice_soon' => 'You will recieve an invoice soon. Please transfer the fee [ticket] within 7 days to this account:',
+    'invoice_soon' => 'You will recieve an invoice soon. Please transfer the fee within 7 days to this account:',
     'form_footer' => 'Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!',
     'form_footer_2' => 'A registration confirmation/invoice will be sent by email after the Conference Stuff has received the fully completed registration form.',
   );
