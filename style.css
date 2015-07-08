@@ -29,7 +29,9 @@ h3 {
     border-bottom: 0px; 
     
 }
-
+.intro-header {
+    height:80%;
+}
 
 .registration {
   border: 0;
