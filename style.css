@@ -6,7 +6,7 @@ h3 { color: #337AB7; font-size: 18px; }
 
 .page-header {  border-bottom: 0px; }
 
-navbar { text-transform: uppercase; }
+.navbar { text-transform: uppercase; }
 
 background-image { 
     background-image: url('{{ site.base_url }}/media/background-1280x800.jpg');
