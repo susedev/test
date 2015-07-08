@@ -21,6 +21,13 @@ h3 {
     
 }
 
+h5 {
+    color: #F0F0F0;
+    font-size: 3.2vw; 
+    font-weight:bold; 
+    text-align: left; 
+    margin-right:50px;
+}
 .navbar-default {
     margin-left: -51px;
 }
