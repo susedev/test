@@ -5,4 +5,4 @@ defaults:
     values:
       layout: "page"
 
-registration_php_url: "/register.php"
+registration_php_url: "http://eijc.laforge.grep.ro/registration.php"
