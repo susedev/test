@@ -29,7 +29,7 @@ p1 {
     margin-right:50px;
 }
 .navbar-default {
-    margin-left: -51px;
+   align: left;
 }
 
 .page-header {  
