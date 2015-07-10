@@ -28,7 +28,6 @@ p1 {
     font-size: 3.2vmax; 
     text-align: left; 
     margin-right:40px;
-    font-family: "Gotham SSm A","Gotham SSm B",Verdana,Geneva,sans-serif;
 }
 
 p2 {
@@ -36,7 +35,6 @@ p2 {
     font-size: 3.2vm; 
     text-align: left; 
     margin-right:40px;
-    font-family: "Gotham SSm A","Gotham SSm B",Verdana,Geneva,sans-serif;
 }
 
 .navbar-default {
