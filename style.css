@@ -23,16 +23,14 @@ h3 {
 }
 
 
-p3 {
+p1 {
     color: #F0F0F0;
-    font-size: 14px;
-    font-size: 3.2vw;
-    text-align: center;
-    text-transform: uppercase;  
-    padding-bottom:50px; 
-    margin-left: 15px;
-    
+    font-size: 3.2vmax; 
+    font-weight:bold; 
+    text-align: left; 
+    margin-right:50px;
 }
+
 .navbar-default {
    align: left;
    font-size:16px;
