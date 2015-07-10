@@ -32,7 +32,8 @@ p1 {
 
 .navbar-default {
    align: left;
-   font-size:16px;
+   text-transform: uppercase;
+   font-size: small;
 }
 
 .page-header {  
