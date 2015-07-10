@@ -3,7 +3,6 @@ body {
     color: #333; 
     margin-bottom: 50px;
     font-size:14px;
-    font-size: 3.2vw;
 }
 h1 { 
     color: #337AB7; 
@@ -23,22 +22,6 @@ h3 {
     
 }
 
-p1 {
-    color: #F0F0F0;
-    font-size: 3.2vmax; 
-    font-weight:bold; 
-    text-align: left; 
-    margin-right:50px;
-}
-
-p2 {
-    color: #F0F0F0;
-    font-size: 56px;
-    font-size: 3.2vmax; 
-    font-weight:bold;
-    text-align: center; 
-    margin-top:400px;
-}
 
 p3 {
     color: #F0F0F0;
