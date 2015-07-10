@@ -31,9 +31,10 @@ p1 {
 }
 
 p2 {
-    color: #F0F0F0;
+    color: #F1F1F1;
     font-size: 3.2vm; 
     text-align: left; 
+    margin-right:40px;
 }
 
 .navbar-default {
