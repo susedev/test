@@ -53,8 +53,7 @@ p2 {
     font-size: 40px;
     color: #F0F0F0;
     background: transparent none repeat scroll 0px 0px;
-    text-align: center;
-    position:relative;
+    vertical-align: center;
 }
 
 .nav {
