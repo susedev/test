@@ -38,10 +38,11 @@ p2 {
     font-family: Verdana,Geneva,sans-serif;
 }
 
-.navbar-default {
+.nav {
    align: left;
    text-transform: uppercase;
    font-size: small;
+   margin-top: 7px;
 }
 
 .page-header {  
