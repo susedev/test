@@ -73,6 +73,20 @@ p2 {
     
 }
 
+.btn-circle-3 {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 9px 13px;
+    border: 2px solid #337AB7;
+    border-radius: 100% !important;
+    font-size: 40px;
+    color: #337AB7;
+    background: transparent none repeat scroll 0px 0px;
+    
+}
+
 .nav {
    align: left;
    text-transform: uppercase;
@@ -94,8 +108,4 @@ p2 {
   height: 1200px;
 }
 
-.thumbnail2 {
-    background-color: transparent; 
-    padding: 15px 20px 15px;
-    color: #C7C7C7;
-}
+
