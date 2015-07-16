@@ -22,29 +22,45 @@ if(isset($_GET['lang']) && $_GET['lang'] == 'en') {
     'early_bird_info' => 'Early-Bird-Tickets are available until 31.08.2015.',
     'success' => 'Thank you for your registration. You have been registered successfully as participant at the Conference "Communication Floods" at Mediacampus Villa Ida, Poetenweg 28, 04155 Leipzig on Friday, 6 November 2015.',
     'formtext' => 'You send us the following information:',
-    'invoice_soon' => 'You will recieve an invoice soon. Please transfer the fee within 7 days to this account:',
+    'invoice_soon' => 'You will recieve an invoice soon. Please transfer the fee [ticket] within 7 days to this account:',
     'form_footer' => 'Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!',
     'form_footer_2' => 'A registration confirmation/invoice will be sent by email after the Conference Stuff has received the fully completed registration form.',
+    'title_options' => ['Mrs.', 'Mr.', 'Prof.', 'Dr.'],
+    'ticket_options' => [
+      'Early-Bird Regular (60 €)',
+      'Regular (80 €)',
+      'Post-docs/Students (40 €)',
+    ],
+    'required_field' => 'Required field',
+    'submit' => 'Submit',
   );
 }
 else {
   $txt = array(
-    'page_title' => 'Registration',
-    'title' => 'Title',
-    'first_name' => 'First Name',
-    'last_name' => 'Last Name',
+    'page_title' => 'Anmeldung',
+    'title' => 'Anrede',
+    'first_name' => 'Vorname',
+    'last_name' => 'Name',
     'email' => 'Email',
-    'organization' => 'Organization / Institution',
-    'address' => 'Address',
-    'postcode' => 'Post Code',
-    'city' => 'City',
+    'organization' => 'Organisation / Institution',
+    'address' => 'Addresse',
+    'postcode' => 'PLZ',
+    'city' => 'Stadt',
     'ticket' => 'Ticket',
-    'early_bird_info' => 'Early-Bird-Tickets are available until 31.08.2015.',
-    'success' => 'Thank you for your registration. You have been registered successfully as participant at the Conference "Communication Floods" at Mediacampus Villa Ida, Poetenweg 28, 04155 Leipzig on Friday, 6 November 2015.',
-    'formtext' => 'You send us the following information:',
-    'invoice_soon' => 'You will recieve an invoice soon. Please transfer the fee within 7 days to this account:',
-    'form_footer' => 'Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!',
-    'form_footer_2' => 'A registration confirmation/invoice will be sent by email after the Conference Stuff has received the fully completed registration form.',
+    'early_bird_info' => 'Frühbucher-Tickets sind bis zum 31.08.2015 erhältlich.',
+    'success' => 'Vielen Dank für Ihre Anmeldung zur Tagung "KommunikationsFluten" am 6. November 2015, Mediacampus Villa Ida, Poetenweg 28, 04155 Leipzig.',
+    'formtext' => 'Sie haben uns folgende Informationen zu Ihrer Person übermittelt:',
+    'invoice_soon' => 'In Kürze erhalten Sie eine Anmeldebestätigung sowie eine Rechnung an die von Ihnen angegebene E-Mail-Adresse. Wir möchten Sie bitten, die darin vermerkte Tagungsgebühr innerhalb von 7 Tagen auf folgendes Konto zu überweisen:',
+    'form_footer' => 'Hinweis: Bitte füllen Sie alle mit * markierten Felder aus und überprüfen Sie Ihre Angaben vor dem Absenden auf ihre Richtigkeit.',
+    'form_footer_2' => 'Nach der erfolgreichen Anmeldung erhalten Sie eine Anmeldungsbestätigung sowie eine Rechnung an die von Ihnen angegebene E-Mail-Adresse.',
+    'title_options' => ['Frau', 'Herr', 'Prof.', 'Dr.'],
+    'ticket_options' => [
+      'Frühbucher (60 €)',
+      'Normal (80 €)',
+      'Post-docs/Studenten (40 €)',
+    ],
+    'required_field' => 'Pflichtfeld',
+    'submit' => 'Anmelden',
   );
 }
 
@@ -90,7 +106,7 @@ function render_html($data, $err) {
   <form class="form" method="post">
     <div class="form-group">
       <label for="title"><?= $txt['title'] ?> *:</label>
-      <?php select_html('title', ['Mrs.', 'Mr.', 'Prof.', 'Dr.'], $data) ?>
+      <?php select_html('title', $txt['title_options'], $data) ?>
     </div>
 
     <div class="form-group">
@@ -130,11 +146,7 @@ function render_html($data, $err) {
 
     <div class="form-group">
       <label for="ticket"><?= $txt['ticket'] ?> *:</label>
-      <?php select_html('ticket', [
-        'Early-Bird Regular (60 €)',
-        'Regular (80 €)',
-        'Post-docs/Students (40 €)',
-      ], $data) ?>
+      <?php select_html('ticket', $txt['ticket_options'], $data) ?>
     </div>
 
     <p><?= $txt['early_bird_info'] ?></p>
@@ -145,7 +157,7 @@ function render_html($data, $err) {
       <p class="text-danger"><?= $e ?></p>
     <?php } ?>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary"><?= $txt['submit'] ?></button>
 
     <p><?= $txt['form_footer_2'] ?></p>
   </form>
@@ -156,7 +168,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   $err = [];
   foreach($fields as $fieldname) {
     if(! $_POST[$fieldname]) {
-      $err[] = "Required field: ${txt[$fieldname]}";
+      $err[] = "${txt['required_field']}: ${txt[$fieldname]}";
     }
   }
 
@@ -175,7 +187,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         "Content-Type: text/plain; charset=UTF-8\r\n" .
         "Content-Transfer-Encoding: base64\r\n\r\n";
 
-    @mail($email_to, $email_subject, chunk_split(base64_encode($body)), $headers);
+    mail($email_to, $email_subject, chunk_split(base64_encode($body)), $headers);
 
     ?>
       <p><?= $txt['success'] ?></p>
