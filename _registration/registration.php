@@ -43,7 +43,7 @@ else {
     'last_name' => 'Name',
     'email' => 'Email',
     'organization' => 'Organisation / Institution',
-    'address' => 'Addresse',
+    'address' => 'Adresse',
     'postcode' => 'PLZ',
     'city' => 'Stadt',
     'ticket' => 'Ticket',
