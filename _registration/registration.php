@@ -51,7 +51,7 @@ else {
     'success' => 'Vielen Dank für Ihre Anmeldung zur Tagung "KommunikationsFluten" am 6. November 2015, Mediacampus Villa Ida, Poetenweg 28, 04155 Leipzig.',
     'formtext' => 'Sie haben uns folgende Informationen zu Ihrer Person übermittelt:',
     'invoice_soon' => 'In Kürze erhalten Sie eine Anmeldebestätigung sowie eine Rechnung an die von Ihnen angegebene E-Mail-Adresse. Wir möchten Sie bitten, die darin vermerkte Tagungsgebühr innerhalb von 7 Tagen auf folgendes Konto zu überweisen:',
-    'form_footer' => 'Hinweis: Bitte füllen Sie alle mit * markierten Felder aus und überprüfen Sie Ihre Angaben vor dem Absenden auf ihre Richtigkeit.',
+    'form_footer' => 'Hinweis: Bitte füllen Sie alle mit * markierten Felder aus und überprüfen Sie Ihre Angaben vor dem Absenden auf ihre Richtigkeit. Falls Sie keiner Organisation/ Institution angehören, geben Sie im entsprechenden Feld bitte "Sonstiges" an.',
     'form_footer_2' => 'Nach der erfolgreichen Anmeldung erhalten Sie eine Anmeldungsbestätigung sowie eine Rechnung an die von Ihnen angegebene E-Mail-Adresse.',
     'title_options' => ['Frau', 'Herr', 'Prof.', 'Dr.'],
     'ticket_options' => [
