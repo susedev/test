@@ -113,18 +113,3 @@ p2 {
     
 }
 
-.people {
-    float: left; 
-    margin-right: 10px; 
-    margin-bottom: 5px;
-    width: 100px;
-    height: auto;
-}
-
-.title {
-    margin-top:40px;
-}
-
-.description {
-    margin-top:10px;
-}
