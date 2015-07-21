@@ -121,8 +121,10 @@ p2 {
     height: auto;
 }
 
-.description {
-    margin-top:5px;
+.title {
     vertical-align: middle;
 }
 
+.description {
+    margin-top:5px;
+}
