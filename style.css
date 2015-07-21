@@ -112,3 +112,16 @@ p2 {
     margin-top:-5px;
     
 }
+
+.people {
+    float: left; 
+    margin-right: 10px; 
+    margin-bottom: 5px;
+    width: 100px;
+    height: auto;
+}
+
+.description {
+    margin-top:5px;
+}
+}
