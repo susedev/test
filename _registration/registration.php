@@ -52,7 +52,7 @@ else {
     'invoice_soon' => 'In Kürze erhalten Sie eine Anmeldebestätigung sowie eine Rechnung an die von Ihnen angegebene E-Mail-Adresse. Wir möchten Sie bitten, die darin vermerkte Tagungsgebühr innerhalb von 7 Tagen auf folgendes Konto zu überweisen:',
     'form_footer' => 'Hinweis: Bitte füllen Sie alle mit * markierten Felder aus und überprüfen Sie Ihre Angaben vor dem Absenden auf ihre Richtigkeit. Falls Sie keiner Organisation/ Institution angehören, geben Sie im entsprechenden Feld bitte "Sonstiges" an.',
     'form_footer_2' => 'Nach der erfolgreichen Anmeldung erhalten Sie eine Anmeldungsbestätigung sowie eine Rechnung an die von Ihnen angegebene E-Mail-Adresse.',
-    'title_options' => ['Frau', 'Herr', 'Prof.', 'Dr.'],
+    'title_options' => ['Frau', 'Herr', 'Prof.', 'Dr.', 'Dipl-Ing.'],
     'ticket_options' => [
       'Normal (80 €)',
       'Post-docs/Studenten (40 €)',
