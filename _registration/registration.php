@@ -27,7 +27,6 @@ if(isset($_GET['lang']) && $_GET['lang'] == 'en') {
     'form_footer_2' => 'A registration confirmation/invoice will be sent by email after the Conference Stuff has received the fully completed registration form.',
     'title_options' => ['Mrs.', 'Mr.', 'Prof.', 'Dr.'],
     'ticket_options' => [
-      'Early-Bird Regular (60 €)',
       'Regular (80 €)',
       'Post-docs/Students (40 €)',
     ],
@@ -55,7 +54,6 @@ else {
     'form_footer_2' => 'Nach der erfolgreichen Anmeldung erhalten Sie eine Anmeldungsbestätigung sowie eine Rechnung an die von Ihnen angegebene E-Mail-Adresse.',
     'title_options' => ['Frau', 'Herr', 'Prof.', 'Dr.'],
     'ticket_options' => [
-      'Frühbucher (60 €)',
       'Normal (80 €)',
       'Post-docs/Studenten (40 €)',
     ],
