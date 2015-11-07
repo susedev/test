@@ -28,6 +28,15 @@ h4 {
     font-size: 14px;
 }
 
+h5 { 
+    color: #337AB7; 
+    font-size: 18px; 
+    padding-left:30px;
+}
+
+p5 {
+    padding-left:30px;
+}
 p1 {
     color: #F0F0F0;
     font-size: 3.2vmax; 
