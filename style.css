@@ -118,7 +118,6 @@ p2 {
 
 .carousel-indicators li{
     border: 1px solid #337AB7;
-}
-.carousel-indicators .active li{
     background-color: #337AB7;
 }
+
