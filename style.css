@@ -31,9 +31,9 @@ h4 {
 h5 { 
     color: #337AB7; 
     font-size: 18px; 
+    margin-top: 50px;
     margin-left:30px;
     margin-bottom: 50px;
-    margin-top: 50px;
 }
 
 
@@ -132,6 +132,6 @@ p5 {
 .carousel-indicators li{
     border: 1px solid #337AB7;
     background-color: #337AB7;
-    margin-bottom:70px;
+    margin-bottom:60px;
 }
 
