@@ -116,9 +116,9 @@ p2 {
    margin-right: auto;
 }
 
-.carousel-indicators {
+.carousel-indicators li{
     border: 1px solid #337AB7;
 }
-.carousel-indicators .active{
+.carousel-indicators .active li{
     background-color: #337AB7;
 }
