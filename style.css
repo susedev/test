@@ -52,10 +52,10 @@ p2 {
     font-family: Verdana,Geneva,sans-serif;
 }
 p3 {
-    text-align: right;
-    font-size:9px;
+    float: right;
+    font-size:7px;
     margin-right:5px;
-    margin-top:2px;
+    margin-top:-20px;
 }
 p5 {
     margin-left:30px;
