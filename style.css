@@ -52,8 +52,10 @@ p2 {
     font-family: Verdana,Geneva,sans-serif;
 }
 p3 {
-    align: left;
+    text-align: right;
     font-size:9px;
+    margin-right:5px;
+    margin-top:2px;
 }
 p5 {
     margin-left:30px;
