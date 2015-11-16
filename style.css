@@ -147,7 +147,7 @@ p5 {
     margin-bottom: 20px;
 }
 
-#document {
+.iframe {
     video autoplay: false;
 }
 }
